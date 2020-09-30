@@ -1,8 +1,13 @@
 .screen {
     border: red 1px solid;
     width: 50%;
-    height: 400px;
+    height: 500px;
+    margin: auto;
     background-color: black;
+}
+
+body {
+    background-color: slategrey;
 }
 
 .border {
@@ -33,6 +38,7 @@
 }
 
 #zone {
+    max-width: 40%;
     position: relative;
     margin: auto;
     height: 100%;

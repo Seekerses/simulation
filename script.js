@@ -9,7 +9,7 @@ function recount(){
     let rightBorder = document.getElementById("rightborder")
     let zone = document.getElementById("zone")
     let count = Number.parseInt(document.getElementById("count").value)
-    zone.style.width = (100/width +width) + "%"
+    zone.style.width = (100/width +width + (width < 10/width ? 100/width:0)) + "%"
     while (zone.firstChild) {
         zone.removeChild(zone.firstChild);
     }
