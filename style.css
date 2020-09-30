@@ -1,0 +1,39 @@
+.screen {
+    border: red 1px solid;
+    width: 50%;
+    height: 400px;
+    background-color: black;
+}
+
+.border {
+    background-color: darkgrey;
+    width: 20%;
+    height: 100%;
+    opacity: 0;
+}
+
+#leftborder{
+    float: left;
+}
+
+#rightborder {
+    float: right;
+}
+
+* {
+    margin: 0;
+}
+
+.dot {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: chartreuse;
+    margin: auto;
+}
+
+#zone {
+    position: relative;
+    margin: auto;
+    height: 100%;
+}
